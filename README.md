@@ -1,6 +1,6 @@
 # Personal Website
 
-This is my personal website where I showcase my projects, share my resume, and provide a way to contact me.
+This is my personal website where I showcase my projects, share my resume, and provide a way to get connected with me.
 
 ## Structure
 
@@ -12,7 +12,7 @@ This is my personal website where I showcase my projects, share my resume, and p
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/your-username/personal-website.git`
+1. Clone the repository: `git clone https://github.com/elijah-2003/personal-website.git`
 2. Open `index.html` in your browser to view the website.
 3. Customize the content and styles as needed.
 
