@@ -15,6 +15,7 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#classes">Classes</a></li>
                 <li><a href="#research">Research</a></li>
+                <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -22,24 +23,24 @@
     <main>
         <section id="home" class="hero">
             <h1>Elijah Johnson</h1>
-            <p>A curious individual interested in pushing the boundaries of automation
-                for creating a more sustainable world.
+            <p>A driven and innovative thinker committed to leveraging automation technology to build a more sustainable and efficient future.
             </p>
         </section>
         <section id="about">
             <h2>About Me</h2>
+            <img src="images/elijah.jpg" alt="Elijah Johnson" class="profile-img">
             <p>Elijah Johnson is a Junior at the Massachusetts Institute of Technology specializing in Artificial Intelligence, Robotics, and Mathematics. 
                 With a strong background in computer science and two summers of professional work experience at Amazon, 
                 Elijah has successfully built scalable and efficient solutions for complex technical challenges.
                 He has solved real problems for customers ranging from creating an efficient log database for teams to
                 easing access to and securing training modules for Amazon affiliates to do their work effectively.
                 He is well-versed in various programming languages and frameworks like Python, Java, C, and Go Lang. 
-                In his spare time, Eijah enjoys finding netflix series to binge, going on hikes, solving brainteasers,
+                In his spare time, Elijah enjoys finding Netflix series to binge, going on hikes, solving brainteasers,
                 and catching up on mobile phone development (MKBHD).
             </p>
         </section>
         <section id="classes">
-            <h2><u>Classes</u></h2>
+            <h2>Classes</h2>
             
             <ul><b>Fall 2022</b>
                 <li>
@@ -164,8 +165,15 @@
                     Key features include tokenization of source code, constructing a syntax tree, interpreting the syntax according to Scheme rules, and error handling. The interpreter manages variable mappings, supports user-defined functions, and implements basic Scheme functions such as arithmetic operations and list manipulation.
                 </p>
                 <p>
-                    Check out the results on <a href="https://github.com/elijah-2003/Lisp_Interpreter" target="_blank" rel="noopener noreferrer">GitHub</a>.
+                    Check out the code on <a href="https://github.com/elijah-2003/Lisp_Interpreter" target="_blank" rel="noopener noreferrer">GitHub</a>.
                 </p>
+            </div>
+            <div class="project">
+                <h3>Event Manager Website (Phi Kappa Sigma)</h3>
+                <p>
+                    Efficiently managed the guest check-in process for Phi Kappa Sigma events, successfully overseeing the registration of over 300 attendees through a system of custom QR invitations. Utilizing the React framework and WebSockets for real-time check-ins, each guest's unique identifier was temporarily stored in a DynamoDB table, ensuring quick and accurate access to attendee information. This system streamlined the check-in process, reducing wait times and enhancing the overall event experience for guests
+                </p>
+                <p>Check out code on <a href="https://github.com/elijah-2003/SkullHouseEventHostingWebsite" target="_blank" rel="noopener noreferrer">Github</a>.</p>
             </div>
         </section>
         <section id="research">
@@ -174,10 +182,15 @@
             <div class="project">
                 <h3>MIT Personal Robots Group</h3>
                 <p>
-                    During this research project, high school students were assisted in harnessing the power of the Pandas and Seaborn modules to extract and analyze data on critical social issues such as Environmental Justice, Food Insecurity, and Housing in Boston. Recognizing a noticeable gap in computing curricula tailored to empower African American students, a custom functions class was developed using Pandas and Seaborn to make data extraction accessible and beginner-friendly. This initiative was part of a broader effort to apply "liberatory computing" as a way to empower African American students to address embedded racism through computing. Mentorship and support were provided to the students, guiding them in creating impactful data visualizations and developing published ArcGIS stories for a humanitarian community organization. The curriculum, exemplified by a data activism approach, engaged 24 African American high school students who partnered with community organizations in the Greater Boston area for various data activism initiatives. These projects included data analysis, geospatial analysis, qualitative analysis, surveys, interviews, artistic expression, and the incorporation of community perspectives. The students' projects were intended for advocacy purposes, such as advocating for policies addressing flooding in African American and low-income Boston communities using data visualizations. Surveys revealed that the students gained heightened awareness of data science's role in combating racism and enhanced proficiency in promoting racial justice. Interviews indicated that mitigating systemic oppression through their data activism projects with community organizers was a pivotal aspect that motivated them to persist in integrating data activism into their future pursuits. Furthermore, collaboration with peers resulted in a research paper focused on computing with the purpose of empowerment. This paper was subsequently published and sponsored by Black Issues in Computing Education (BICE), underscoring the significance of this work in the field. The implications of this research demonstrate how African American students can be empowered to utilize data science to catalyze societal transformation by fostering opportunities to apply their skills to tangible real-life issues through collaboration with community organizations addressing systemic challenges.
+                    During this research project, high school students were guided in using Pandas and Seaborn to analyze data on Environmental Justice, Food Insecurity, and Housing in Boston. To address the gap in computing curricula for African American students, a custom functions class was created to make data extraction accessible. This effort was part of "liberatory computing" to empower students to combat racism through computing. The students developed impactful data visualizations and ArcGIS stories for a humanitarian organization, engaging in data activism initiatives with community organizations. These projects included various forms of analysis and incorporated community perspectives for advocacy, such as policies addressing flooding in low-income communities. Surveys showed increased awareness of data science's role in combating racism and enhanced proficiency in promoting racial justice. The research, culminating in a published paper sponsored by Black Issues in Computing Education (BICE), demonstrated how African American students can use data science to drive societal transformation by addressing systemic challenges through collaboration.
                 </p>
                 <p>Check out the research paper <a href="https://www.media.mit.edu/publications/unveiling-voices-boston-students-data-activism-journey-with-community-catalysts/" target="_blank" rel="noopener noreferrer">here</a>.</p>
             </div>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>For a detailed overview of my education, experience, and skills, you can view or download my resume below.</p>
+            <a href="assets/Elijah.pdf" target="_blank" class="resume-button">View/Download Resume</a>
         </section>
         <section id="contact">
             <h2>Contact</h2>
@@ -196,10 +209,11 @@
                         <img src="images/Email_icon.png" alt="Email">
                     </a>
                 </div>
-                <p>&copy; 2024 Elijah Johnson</p>
+                <p>&copy; <span id="current-year"></span> Elijah Johnson</p>
             </footer>
         </section>
     </main>
+    <script src="scripts/get_current_year.js"></script>
     <script src="scripts/smooth_scrolling.js"></script>
 </body>
 </html>
